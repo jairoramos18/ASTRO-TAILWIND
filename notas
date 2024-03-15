@@ -1,0 +1,80 @@
+nota astro
+npm create astro@latest
+
+
+
+Where should we create your new project?
+         ./ Astro_taildwind
+
+  tmpl   How would you like to start your new project?
+         Include sample files
+
+    ts   Do you plan to write TypeScript?
+         No
+      ◼  No worries! TypeScript is supported in Astro by default,
+         but you are free to continue writing JavaScript instead.
+
+  deps   Install dependencies?
+         Yes
+
+   git   Initialize a new git repository?
+         Yes
+
+      ✔  Project initialized!
+         ■ Template copied
+         ■ Dependencies installed
+         ■ Git initialized
+
+  next   Liftoff confirmed. Explore your project!
+
+         Enter your project directory using cd ./Astro_taildwind
+         Run npm run dev to start the dev server. CTRL+C to stop.
+         Add frameworks like react or tailwind using astro add.
+
+         Stuck? Join us at https://astro.build/chat
+npm notice
+npm notice New major version of npm available! 9.3.1 -> 10.5.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.5.0
+npm notice Run npm install -g npm@10.5.0 to update!
+npm notice
+
+C:\Users\SCIS2PC27\Documents>cd ./Astro_taildwind
+
+C:\Users\SCIS2PC27\Documents\Astro_taildwind>code .
+
+C:\Users\SCIS2PC27\Documents\Astro_taildwind>npm run dev
+
+> astro-taildwind@0.0.1 dev
+> astro dev
+
+Node.js v18.14.0 is not supported by Astro!
+Please upgrade Node.js to a supported version: ">=18.14.1"
+
+
+C:\Users\SCIS2PC27\Documents\Astro_taildwind>npm i
+
+up to date, audited 441 packages in 957ms
+
+186 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\SCIS2PC27\Documents\Astro_taildwind>npm run dev
+
+> astro-taildwind@0.0.1 dev
+> astro dev
+
+▶ Astro collects anonymous usage data.
+  This information helps us improve Astro.
+  Run "astro telemetry disable" to opt-out.
+  https://astro.build/telemetry
+
+
+ astro  v4.5.5 ready in 150 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+15:35:00 watching for file changes...
+15:35:21 [200] / 13ms
