@@ -1,0 +1,135 @@
+cd Desktop
+PS C:\Users\SCIS2PC29\Desktop> npm create astro@latest
+
+ astro   Launch sequence initiated.
+
+   dir   Where should we create your new project?
+         ./jairo-dcastro
+
+  tmpl   How would you like to start your new project?
+         Include sample files
+
+    ts   Do you plan to write TypeScript?
+         No
+      ◼  No worries! TypeScript is supported in Astro by default,
+         but you are free to continue writing JavaScript instead.
+
+  deps   Install dependencies?
+         Yes
+
+   git   Initialize a new git repository?
+         No
+      ◼  Sounds good! You can always run git init manually.
+
+      ✔  Project initialized!
+         ■ Template copied
+         ■ Dependencies installed
+
+  next   Liftoff confirmed. Explore your project!
+
+         Enter your project directory using cd ./jairo-dcastro
+         Run npm run dev to start the dev server. CTRL+C to stop.
+         Add frameworks like react or tailwind using astro add.
+
+         Stuck? Join us at https://astro.build/chat
+PS C:\Users\SCIS2PC29\Desktop> npx astro add tailwind
+npm ERR! code ENOENT
+npm ERR! syscall lstat
+npm ERR! path C:\Users\SCIS2PC29\AppData\Roaming\npm
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, lstat 'C:\Users\SCIS2PC29\AppData\Roaming\npm'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in: C:\Users\SCIS2PC29\AppData\Local\npm-cache\_logs\2024-04-05T20_59_27_298Z-debug-0.log
+PS C:\Users\SCIS2PC29\Desktop> cd .\jairo-dcastro\
+PS C:\Users\SCIS2PC29\Desktop\jairo-dcastro> npx astro add tailwind
+▶ Astro collects anonymous usage data.
+  This information helps us improve Astro.
+  Run "astro telemetry disable" to opt-out.
+  https://astro.build/telemetry
+
+√ Resolving packages...
+
+  Astro will run the following command:
+  If you skip this step, you can always run it yourself later
+
+ ╭──────────────────────────────────────────────────────────╮
+ │ npm install @astrojs/tailwind@^5.1.0 tailwindcss@^3.4.3  │
+ ╰──────────────────────────────────────────────────────────╯
+
+√ Continue? ... yes
+√ Installing dependencies...
+
+  Astro will generate a minimal ./tailwind.config.mjs file.
+
+√ Continue? ... yes
+
+  Astro will make the following changes to your config file:
+
+ ╭ astro.config.mjs ─────────────────────────────╮
+ │ import { defineConfig } from 'astro/config';  │
+ │                                               │
+ │ import tailwind from "@astrojs/tailwind";     │
+ │                                               │
+ │ // https://astro.build/config                 │
+ │ export default defineConfig({                 │
+ │   integrations: [tailwind()]                  │
+ │ });                                           │
+ ╰───────────────────────────────────────────────╯
+
+√ Continue? ... yes
+
+   success  Added the following integration to your project:
+  - @astrojs/tailwind
+PS C:\Users\SCIS2PC29\Desktop\jairo-dcastro> npx astro add astro-icon
+‼ astro-icon is not an official Astro package.
+√ Continue? ... yes
+√ Resolving with third party packages...
+
+  Astro will run the following command:
+  If you skip this step, you can always run it yourself later
+
+ ╭────────────────────────────────╮
+ │ npm install astro-icon@^1.1.0  │
+ ╰────────────────────────────────╯
+
+√ Continue? ... yes
+√ Installing dependencies...
+
+  Astro will make the following changes to your config file:
+
+ ╭ astro.config.mjs ─────────────────────────────╮
+ │ import { defineConfig } from 'astro/config';  │
+ │ import tailwind from "@astrojs/tailwind";     │
+ │                                               │
+ │ import icon from "astro-icon";                │
+ │                                               │
+ │ // https://astro.build/config                 │
+ │ export default defineConfig({                 │
+ │   integrations: [tailwind(), icon()]          │
+ │ });                                           │
+ ╰───────────────────────────────────────────────╯
+
+√ Continue? ... yes
+
+   success  Added the following integration to your project:
+  - astro-icon
+PS C:\Users\SCIS2PC29\Desktop\jairo-dcastro> npm i -D @iconify-json/mdi
+
+added 1 package, and audited 570 packages in 4s
+
+220 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\SCIS2PC29\Desktop\jairo-dcastro> code .
+PS C:\Users\SCIS2PC29\Desktop\jairo-dcastro>
+
+
+
+
+
+
+
+
